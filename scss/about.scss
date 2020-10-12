@@ -1,0 +1,21 @@
+.about {
+  //background-color: azure;
+  margin-left: 30px;
+  height: 500px;
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    margin-top: 20px;
+    height: 60%;
+  }
+
+  .txt {
+    //background-color: navajowhite;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+  }
+}

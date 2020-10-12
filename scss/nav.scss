@@ -1,0 +1,28 @@
+.cart {
+  .cart-button {
+    padding: 10px 25px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(99, 1, 1);
+    margin-left: 1200px;
+    border: 1px solid rgb(99, 1, 1);
+  }
+}
+
+.link {
+  width: 1280px;
+  display: flex;
+  justify-content: space-evenly;
+  //background-color: aqua;
+  margin-bottom: 25px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
