@@ -6,17 +6,17 @@ function initListeners() {
 }
 
 function initSite() {
-  $.get("../view/nav.html", function(nav) {
+  $.get("view/nav.html", function(nav) {
     console.log("nav", nav);
     $("#nav").html(nav);
     initListeners();
   });
 
-  $.get("../view/home.html", function(data) {
+  $.get("view/home.html", function(data) {
     $("#cont").html(data);
   });
 
-  $.get("../view/footer.html", function(data) {
+  $.get("view/footer.html", function(data) {
     $("#footer").html(data);
   });
 }

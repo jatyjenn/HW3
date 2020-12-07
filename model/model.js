@@ -1,6 +1,6 @@
 var MODEL = (function() {
   var _getView = function(viewName) {
-    $.get(`../view/${viewName}.html`, function(data) {
+    $.get(`view/${viewName}.html`, function(data) {
       $("#cont").html(data);
     });
   };
